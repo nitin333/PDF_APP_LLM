@@ -19,8 +19,8 @@ from langchain.chains import ConversationalRetrievalChain
 from htmlTemplates import css, bot_template, user_template
 from langchain_community.llms import HuggingFaceHub
 from langchain.prompts import PromptTemplate
-#from google.oauth2 import id_token
-#from google.auth.transport import requests
+from google.oauth2 import id_token
+from google.auth.transport import requests
 
 
 def creds_entered():
